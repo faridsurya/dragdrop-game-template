@@ -124,13 +124,14 @@ The structure of parts attribute are:
 ## Calculate the target value
 The target value will determine where the piece should be dropped. The target value is relative to the main body. Calculation of the values of x and y for the target value are:
 
- 
+![calculate_target](https://user-images.githubusercontent.com/5952503/84209932-9f961c80-aae1-11ea-9330-82d080516cbf.png)
 
 P1 is the center of mainBody (Car Body). P2 is the center of wheel image. X is width of rectangle and y is height of rectangle in pixel. Target value for x is the width and height for y value. If P2 is at right side of P1 then x is positive and vice versa. If P2 is at above of P1 then y value is negative and vice versa. For example, if the width is 300px and height is 150px then the target value is: {x:300, y:150}.
 
 ## Calculate the Scale Value
 Scale value is the ratio of real size of piece and the development size.
 
+![Screenshot from 2020-06-10 06-14-55](https://user-images.githubusercontent.com/5952503/84209982-c05e7200-aae1-11ea-893b-1299324c7cda.png)
 
 
 The picture above shows that the scale value is a comparison between the value of the width in the image size and the width value in the development (794/620).
