@@ -97,8 +97,8 @@ The structure of assets attribute in gamePlay contains:
 -  `scale`:	The scale of image when you make it. Read the further documentation for more information (calculate the scale value).
 - `played':	Always false
 - `thumbnail;:	Url of thumbnail image. It will display on the main menu of category.
-- `sound'	
-`Drop`:
+- `sound`
+`drop`:
 Sound asset that will used when user drop the pieces
 `win`:
 Sound asset that will used when game was finished
